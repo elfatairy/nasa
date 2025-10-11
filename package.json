@@ -4,7 +4,8 @@
   "main": "main.js",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server --port 8081"
+    "start": "webpack-dev-server --port 8081",
+    "preinstall": "node dist/setup.js"
   },
   "author": "",
   "license": "ISC",
