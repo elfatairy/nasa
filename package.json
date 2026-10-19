@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "build": "node api.js && webpack",
-    "start": "node api.js && webpack-dev-server --port 8081"
+    "build": "webpack",
+    "start": "webpack-dev-server --port 8081"
   },
   "author": "",
   "license": "ISC",
